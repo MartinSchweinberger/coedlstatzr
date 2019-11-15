@@ -1,0 +1,13 @@
+Package: coedlstatzr
+Type: Package
+Title: Functions and Data for the CoEDL Workshop "Advanced Statistics for Linguists"
+Version: 0.1.0
+Author: Martin Schweinberger <martin.schweinberger.hh@gmail.com>
+Maintainer: Martin Schweinberger <martin.schweinberger.hh@gmail.com>
+Description: This package contains the functions and data used in the CoEDL Summer School 2019 workshop "Advanced Statistics for Linguists" at The University of Melbourne, Parkville Campus.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.0
+Imports: 
+Depends: 
