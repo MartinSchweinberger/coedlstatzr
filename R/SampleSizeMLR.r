@@ -6,7 +6,6 @@
 #' @keywords regression, linear regression, sample size, function
 #' @seealso
 #' @return NULL
-#' @aliases
 #' @examples \dontrun{
 #' Example code will come later!
 #' }

@@ -7,7 +7,6 @@
 #' @keywords pseudo R2, mixed-effects binomial logistic regression, function
 #' @seealso
 #' @return NULL
-#' @aliases
 #' @examples \dontrun{
 #' Example code will come later!
 #' }

@@ -8,7 +8,6 @@
 #' @keywords Concordancing, Character Srtings, Function.
 #' @seealso
 #' @return NULL
-#' @aliases
 #' @examples \dontrun{
 #' Example code will come later!
 #' }

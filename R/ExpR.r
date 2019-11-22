@@ -6,7 +6,6 @@
 #' @keywords beta error, type II error, multiple linear regression, linear regression
 #' @seealso
 #' @return NULL
-#' @aliases
 #' @examples \dontrun{
 #' Example code will come later!
 #' }

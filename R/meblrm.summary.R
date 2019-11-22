@@ -10,7 +10,6 @@
 #' @keywords mixed-Effects binomial logistic regression, mixed-effects logistic regression, summary table, function
 #' @seealso
 #' @return NULL
-#' @aliases
 #' @examples \dontrun{
 #' Example code will come later!
 #' }

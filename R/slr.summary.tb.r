@@ -6,7 +6,6 @@
 #' @keywords regression, linear regression, summary table, function
 #' @seealso
 #' @return NULL
-#' @aliases
 #' @examples \dontrun{
 #' Example code will come later!
 #' }

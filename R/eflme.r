@@ -6,7 +6,6 @@
 #' @keywords linear regression, pearson's rho, effect size, function
 #' @seealso
 #' @return NULL
-#' @aliases
 #' @examples \dontrun{
 #' Example code will come later!
 #' }
