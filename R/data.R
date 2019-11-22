@@ -161,20 +161,14 @@
 
 #' Fictional Data Set Representing 500 observations of Pauses in Conversations.
 #'
-#' Fictional data representing 500 conversations and the number of pauses in the conversations along with information about the conversation.
+#' Fictional data representing 60 test scores of two groups of students.
 #'
-#' @format A data frame with 500 rows and 8 variables:
+#' @format A data frame with 60 rows and 2 variables:
 #' \describe{
-#'   \item{ID}{Identification code of the conversation.}
-#'   \item{Trial}{Integer showing whether the conversation was recorded on day 1, 2, or 3.}
-#'   \item{Language}{Factor representing the language in which the conversation took place (English, German, Russian, Mandarin).}
-#'   \item{Gender}{Factor representing the gender of speakers (Man versus Woman).}
-#'   \item{UHM}{Frequency of pauses filled with uhm.}
-#'   \item{Noise}{Factor representing if music was playing in the background (with versus Without).}
-#'   \item{Interlocutor}{Factor representing the gender of the interlocutor (OtherGender versus SameGender).}
-#'   \item{Shots}{Number of shots a speaker drank before the converstion.}
+#'   \item{Group}{Factor representing the group in which the score was achieved.}
+#'   \item{Score}{Numerc value representing the test score.}
 #'   ...
 #' }
-"slrdata"
+"slrdata2"
 
 
