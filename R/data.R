@@ -10,6 +10,7 @@
 #'   \item{Ethnicity}{ethnicity of speaker (Maori versus Pakeha)}
 #'   ...
 #' }
+#' @source Data generated from a sample of the New Zealand component of the International Corpus of Engish \url{https://www.ice-corpora.uzh.ch/en.html}
 "blrdata"
 
 #' Coding of 250 cases of a fictional data set
@@ -25,6 +26,7 @@
 #'   \item{Frequency}{freqeuncy counts of an unnamed linguistic feature}
 #'   ...
 #' }
+#' @source Fictional data generated for training purposes.
 "cfadata"
 
 #' Fictional Data set of 303 Users and Non-Users of Discourse Like.
@@ -39,6 +41,7 @@
 #'   \item{LikeUser}{Speaker is a user of discourse like (1: yes versus 0:no)}
 #'   ...
 #' }
+#' @source Fictional data generated for training purposes.
 "citdata"
 
 #' Fictional Data of 500 Conversations Coded for Number of Fillers (uhm).
@@ -55,6 +58,7 @@
 #'   \item{Shots}{Number of shots a speaker drank before the converstion.}
 #'   ...
 #' }
+#' @source Fictional data generated for training purposes.
 "countdata"
 
 #' 537 Texts coded for their Relative Number of Prepositions.
@@ -71,6 +75,7 @@
 #'   \item{Region}{Region in which the text was written.}
 #'   ...
 #' }
+#' @source Data generated from a sample of the New Zealand component of the Penn Parsed Corpora of Historical English \url{https://www.ling.upenn.edu/hist-corpora/}
 "lmmdata"
 
 #' Fictional Data Set Representing 2000 Speech-Units Coded for Speech-Unit Final Discourse Like.
@@ -87,6 +92,7 @@
 #'   \item{SUFLike}{Interger representing whether the speech-unit ended with discourse like or not.}
 #'   ...
 #' }
+#' @source Fictional data generated for training purposes.
 "mblrdata"
 
 #' Data Set Representing the Price of 100 Presents.
@@ -100,6 +106,7 @@
 #'   \item{money}{Numeric variable encoding the price of the present.}
 #'   ...
 #' }
+#' @source Data taken from Field, Andy, Miles, Jeremy, and Field, Zoe. 2012. Discovering Statistics Using R, SAGE. for training purposes.
 "mlrdata"
 
 #' Fictional Data Set Representing 6 Speakers.
@@ -112,6 +119,7 @@
 #'   \item{LikeUser}{Factor representing if the speaker is a user of discourse like or not (no versus yes).}
 #'   ...
 #' }
+#' @source Fictional data generated for training purposes.
 "mlrdata"
 
 #' Fictional Data Set Representing 400 observations of Likert Responses.
@@ -125,6 +133,7 @@
 #'   \item{gpa}{Numeric variable representing the student’s grade point average.}
 #'   ...
 #' }
+#' @source Fictional data generated for training purposes.
 "ordinaldata"
 
 #' Fictional Data Set Representing 200 observations of Pauses in Conversations.
@@ -139,6 +148,7 @@
 #'   \item{Alcohol}{Numeric variable representing mililiters of alcohol drunk by the speaker.}
 #'   ...
 #' }
+#' @source Fictional data generated for training purposes.
 "posdata"
 
 #' Fictional Data Set Representing 500 observations of Pauses in Conversations.
@@ -157,6 +167,7 @@
 #'   \item{Shots}{Number of shots a speaker drank before the converstion.}
 #'   ...
 #' }
+#' @source Fictional data generated for training purposes.
 "posdata2"
 
 #' Fictional Data Set Representing 500 observations of Pauses in Conversations.
@@ -169,6 +180,7 @@
 #'   \item{Score}{Numerc value representing the test score.}
 #'   ...
 #' }
+#' @source Fictional data generated for training purposes.
 "slrdata2"
 
 
