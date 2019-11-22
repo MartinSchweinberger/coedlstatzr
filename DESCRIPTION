@@ -10,4 +10,4 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.0
 Imports: 
-Depends: 
+Depends: boot, Boruta, car, caret, dplyr, effects, foreign, FSA, ggplot2, Hmisc, knitr, languageR, lme4, MASS, mlogit, mlogit, msm, nlme, plyr, QuantPsyc, reshape2, RLRsim, rms, sandwich, sfsmisc, sjPlot, stringr, tidyr, vcd, visreg
