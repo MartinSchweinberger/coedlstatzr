@@ -2,8 +2,13 @@
 
 export(ConcR)
 export(blrm.summary)
+export(ef.lme)
+export(expR)
 export(mdl.fttng.swsd)
 export(meblrm.summary)
 export(mlr.summary)
 export(multiplot)
+export(my.lmer.nagelkerke)
 export(pseudor2)
+export(slr.summary)
+export(smplesz)
