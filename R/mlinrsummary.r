@@ -11,7 +11,7 @@
 #' @examples \dontrun{
 #' Example code will come later!
 #' }
-mlr.summary <- function(mlr, glm, ia = T) {
+mlinrsummary <- function(mlr, glm, ia = T) {
   options(warn=-1)
   p.nice <- function(z) {
     as.vector(unlist(sapply(z, function(w) {

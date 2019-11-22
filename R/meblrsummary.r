@@ -13,7 +13,7 @@
 #' @examples \dontrun{
 #' Example code will come later!
 #' }
-meblrm.summary <- function(glm0, glm1, glmer0, glmer1, dpvar) {
+meblrmsummary <- function(glm0, glm1, glmer0, glmer1, dpvar) {
   p.nice <- function(z) {
     as.vector(unlist(sapply(z, function(w) {
       ifelse(w < .001, return("p < .001***"),

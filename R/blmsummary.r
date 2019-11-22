@@ -11,7 +11,7 @@
 #' @examples \dontrun{
 #' Example code will come later!
 #' }
-blrm.summary <- function(x, a, accuracy) {
+blrmsummary <- function(x, a, accuracy) {
   p.nice <- function(z) {
     as.vector(unlist(sapply(z, function(w) {
       ifelse(w < .001, return("p < .001***"),

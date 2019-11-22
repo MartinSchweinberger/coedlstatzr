@@ -9,7 +9,7 @@
 #' @examples \dontrun{
 #' Example code will come later!
 #' }
-ef.lme <- function(x) {
+eflm <- function(x) {
   df <- summary(x)[[20]][6]
   t <-  summary(x)[[20]][8]
   r <- sqrt((t^2)/((t^2)+df))
