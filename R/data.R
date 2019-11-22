@@ -96,8 +96,8 @@
 #' @format A data frame with 100 rows and 3 variables:
 #' \describe{
 #'   \item{status}{Factor representing the relationship status of the buyer (Relationship versus Single).}
-#'   \item{Attraction}{Factor representing if the buyer is attracted to the Receiver of the Present (Intersted versus NotIntersted).}
-#'   \item{Money}{Numeric variable encoding the price of the present.}
+#'   \item{attraction}{Factor representing if the buyer is attracted to the Receiver of the Present (Intersted versus NotIntersted).}
+#'   \item{money}{Numeric variable encoding the price of the present.}
 #'   ...
 #' }
 "mlrdata"
@@ -175,6 +175,6 @@
 #'   \item{Shots}{Number of shots a speaker drank before the converstion.}
 #'   ...
 #' }
-"robustdata"
+"slrdata"
 
 
