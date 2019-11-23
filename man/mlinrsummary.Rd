@@ -21,9 +21,6 @@ This function produces summary tables for fixed-effects multiple linear regressi
 Example code will come later!
 }
 }
-\seealso{
-
-}
 \keyword{function}
 \keyword{linear}
 \keyword{multiple}

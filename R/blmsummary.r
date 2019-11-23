@@ -7,7 +7,7 @@
 #' @export
 #' @keywords binomial logistic regression, logistic regression, summary table, function
 #' @return NULL
-#' @import base, stats
+#' @import stats
 #' @examples \dontrun{
 #' model.glm = glm(depvar ~ indepvar, data = data, family = binomial)
 #' model.lrm = lrm(depvar ~ indepvar, data = data, x = T, y = T)

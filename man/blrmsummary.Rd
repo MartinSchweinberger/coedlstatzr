@@ -18,11 +18,13 @@ This function produces summary tables for fixed-effects binomial logistic regres
 }
 \examples{
 \dontrun{
-Example code will come later!
+model.glm = glm(depvar ~ indepvar, data = data, family = binomial)
+model.lrm = lrm(depvar ~ indepvar, data = data, x = T, y = T)
+data$predicted <- predict(model.glm, data)
+caret::confusionMatrix(data$depvar, data$predict)
+# inspect accuracy and include its numeric value in the blrmsummary function call
+blrmsummary(model.glm, model.lrm, 80)
 }
-}
-\seealso{
-
 }
 \keyword{binomial}
 \keyword{function}

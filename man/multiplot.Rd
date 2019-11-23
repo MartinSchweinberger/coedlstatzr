@@ -14,7 +14,11 @@ This function allows the display of multiple ggplots in a single graphics window
 }
 \examples{
 \dontrun{
-Example code will come later!
+p1 <- ggplot(data, aes(var1, var2)) +
+geom_point()
+p2 <- ggplot(data, aes(var1, var2)) +
+geom_line()
+multiplot(p1, p2, cols = 1)
 }
 }
 \seealso{

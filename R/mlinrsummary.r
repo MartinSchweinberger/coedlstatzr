@@ -6,7 +6,7 @@
 #' @param ia If ia = T (default) the table will show all columns of the summary table.
 #' @export
 #' @keywords multiple linear regression, linear regression, summary table, function
-#' @import base, stats
+#' @import stats
 #' @return NULL
 #' @examples \dontrun{
 #' Example code will come later!

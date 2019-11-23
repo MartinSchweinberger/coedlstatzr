@@ -7,6 +7,7 @@
 #' @export
 #' @keywords Concordancing, Character Srtings, Function.
 #' @return NULL
+#' @import stringr, plyr
 #' @examples \dontrun{
 #' ConcR(corpus, "word", 20)
 #' }

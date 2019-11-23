@@ -4,7 +4,7 @@
 #' @param mdlcmp A list of model comparisons that result from anova results (e.g. m0m1: anova(m0, m1, test = "Chi))
 #' @export
 #' @keywords binomial logistic regression, logistic regression, summary table, function
-#' @import base, stats
+#' @import stats
 #' @return NULL
 #' @examples \dontrun{
 #' m2 = glm(depvar ~ indepvar + inpepvar2, data = data, family = "binomial")

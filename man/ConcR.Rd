@@ -18,11 +18,8 @@ This function creates keyword-in-context (KWIC) displays from a vector of cahrac
 }
 \examples{
 \dontrun{
-Example code will come later!
+ConcR(corpus, "word", 20)
 }
-}
-\seealso{
-
 }
 \keyword{Character}
 \keyword{Concordancing,}

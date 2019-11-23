@@ -14,11 +14,9 @@ This function evaluates whether the sample size is sufficient for a regression a
 }
 \examples{
 \dontrun{
-Example code will come later!
+model.glm = glm(depvar ~ indepvar, data = data, family = gaussian)
+smplesz(model.glm)
 }
-}
-\seealso{
-
 }
 \keyword{function}
 \keyword{linear}

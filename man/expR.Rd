@@ -14,11 +14,9 @@ This function returns the likelihood od type II errors (beta errors) for multipl
 }
 \examples{
 \dontrun{
-Example code will come later!
+model.glm = glm(depvar ~ indepvar, data = data, family = gaussian)
+expR(model.glm)
 }
-}
-\seealso{
-
 }
 \keyword{II}
 \keyword{beta}

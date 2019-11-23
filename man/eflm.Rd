@@ -14,11 +14,9 @@ This function returns the Pearson's rho values from fixed-effects linear regress
 }
 \examples{
 \dontrun{
-Example code will come later!
+model.glmer = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "gaussian")
+eflm(model.glmer)
 }
-}
-\seealso{
-
 }
 \keyword{effect}
 \keyword{function}
