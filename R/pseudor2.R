@@ -5,11 +5,10 @@
 #' @param d The data set on which the model was fit
 #' @export
 #' @keywords pseudo R2, mixed-effects binomial logistic regression, function
-#' @import stats
 #' @return NULL
 #' @examples \dontrun{
-#' model.glmermodel = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "binomial")
-#' pseudor2(c("depvar ~ indepvar", "(1|ranvar)"), data)
+#' #model.glmermodel = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "binomial")
+#' #pseudor2(c("depvar ~ indepvar", "(1|ranvar)"), data)
 #' }
 pseudor2 <- function(f, d) {
   lmer.full= lmer(formula= as.formula(paste(f, collapse="+")), d, family="binomial")

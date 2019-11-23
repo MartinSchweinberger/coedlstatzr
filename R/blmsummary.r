@@ -7,14 +7,13 @@
 #' @export
 #' @keywords binomial logistic regression, logistic regression, summary table, function
 #' @return NULL
-#' @import stats
 #' @examples \dontrun{
-#' model.glm = glm(depvar ~ indepvar, data = data, family = binomial)
-#' model.lrm = lrm(depvar ~ indepvar, data = data, x = T, y = T)
-#' data$predicted <- predict(model.glm, data)
-#' caret::confusionMatrix(data$depvar, data$predict)
-#' # inspect accuracy and include its numeric value in the blrmsummary function call
-#' blrmsummary(model.glm, model.lrm, 80)
+#' #model.glm = glm(depvar ~ indepvar, data = data, family = binomial)
+#' #model.lrm = lrm(depvar ~ indepvar, data = data, x = T, y = T)
+#' #data$predicted <- predict(model.glm, data)
+#' #caret::confusionMatrix(data$depvar, data$predict)
+#' ## inspect accuracy and include its numeric value in the blrmsummary function call
+#' #blrmsummary(model.glm, model.lrm, 80)
 #' }
 blrmsummary <- function(x, a, accuracy) {
   p.nice <- function(z) {

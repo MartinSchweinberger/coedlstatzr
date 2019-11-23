@@ -16,8 +16,8 @@ This function pseudo R2 (Nagelkerke and Cox & Snell) for mixed-effects binomial 
 }
 \examples{
 \dontrun{
-model.glmermodel = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "binomial")
-pseudor2(c("depvar ~ indepvar", "(1|ranvar)"), data)
+#model.glmermodel = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "binomial")
+#pseudor2(c("depvar ~ indepvar", "(1|ranvar)"), data)
 }
 }
 \keyword{R2,}

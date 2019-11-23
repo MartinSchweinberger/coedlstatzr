@@ -8,18 +8,15 @@
 #' @keywords Concordancing, Character Srtings, Function.
 #' @return NULL
 #' @examples \dontrun{
-#' ConcR(corpus, "word", 20)
+#' #ConcR(corpus, "word", 20)
 #' }
 ConcR <- function(strings, pattern, context) {
-  # activate packages
-  require(stringr)
-  require(plyr)
   # list files
   conc <- sapply(strings, function(x) {
-    txt <- str_replace_all(x, " {2,}" , " ")
-    txt <- str_trim(txt, side = "both")
+    txt <- stringr::str_replace_all(x, " {2,}" , " ")
+    txt <- stringr::str_trim(txt, side = "both")
     lngth <- as.vector(unlist(nchar(txt)))
-    idx <- str_locate_all(txt, pattern)
+    idx <- stringr::str_locate_all(txt, pattern)
     idx <- idx[[1]]
     idx1 <- as.vector(unlist(idx[,1]))
     idx2 <- as.vector(unlist(idx[,2]))

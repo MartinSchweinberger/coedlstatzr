@@ -4,7 +4,6 @@
 #' @param mdlcmp is a list of model comparisons of which individual elements are created by anova calls.
 #' @export
 #' @keywords model fitting, step-wise step-down, summary table, function
-#' @import stats
 #' @return NULL
 #' @examples \dontrun{
 #' m0 <-glm(depvar ~ 1, data = data, family = "binomial")
@@ -15,7 +14,7 @@
 #' mdlfttngswsd(m1m0, m2m1)
 #' }
 mdlfttngswsu <- function(mdlcmp){
-mdl.cmp.df1 <- sapply(mdlcmp, function(x) {
+  mdl.cmp.df1 <- sapply(mdlcmp, function(x) {
   p.nice <- function(z) {
     as.vector(unlist(sapply(z, function(w) {
       ifelse(w < .001, return("p < .001***"),

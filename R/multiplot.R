@@ -4,18 +4,17 @@
 #' @param x A vector of numbers representing the panel which a plot will occupy.
 #' @export
 #' @keywords ggplot2, multiple plots, function
-#' @seealso
 #' @return NULL
 #' @import ggplot2
 #' @examples \dontrun{
-#' p1 <- ggplot(data, aes(var1, var2)) +
-#' geom_point()
-#' p2 <- ggplot(data, aes(var1, var2)) +
-#' geom_line()
-#' multiplot(p1, p2, cols = 1)
+#' #p1 <- ggplot(data, aes(var1, var2)) +
+#' #geom_point()
+#' #p2 <- ggplot(data, aes(var1, var2)) +
+#' #geom_line()
+#' #multiplot(p1, p2, cols = 1)
 #' }
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
-  require(grid)
+  require(ggplot2)
   plots <- c(list(...), plotlist)
   numPlots = length(plots)
   if (is.null(layout)) {

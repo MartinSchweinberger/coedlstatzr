@@ -18,7 +18,7 @@ This function creates keyword-in-context (KWIC) displays from a vector of cahrac
 }
 \examples{
 \dontrun{
-ConcR(corpus, "word", 20)
+#ConcR(corpus, "word", 20)
 }
 }
 \keyword{Character}

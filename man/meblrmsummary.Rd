@@ -26,12 +26,12 @@ This function produces summary tables for mixed-effects binomial logistic regres
 }
 \examples{
 \dontrun{
-glm0 = glm(depvar ~ 1, data = data, family = "binomial")
-glm1 = glm(depvar ~ indepvar, data = data, family = "binomial")
-glmer0 = glmer(depvar ~ (1|ranvar), data = data, family = "binomial")
-glmer1 = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "binomial")
-dpvar = data = data$depvar
-meblrmsummary(glm0, glm1, glmer0, glmer1, dpvar)
+#glm0 = glm(depvar ~ 1, data = data, family = "binomial")
+#glm1 = glm(depvar ~ indepvar, data = data, family = "binomial")
+#glmer0 = glmer(depvar ~ (1|ranvar), data = data, family = "binomial")
+#glmer1 = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "binomial")
+#dpvar = data = data$depvar
+#meblrmsummary(glm0, glm1, glmer0, glmer1, dpvar)
 }
 \dontrun{
 glm0 = glm(depvar ~ 1, data = data, family = "binomial")

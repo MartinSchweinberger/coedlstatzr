@@ -1,12 +1,11 @@
 #' @title Summary Tables for Multiple Linear Regressions
 #'
 #' @description This function produces summary tables for fixed-effects multiple linear regressions by extracting the relevent information from a glm and an lm object.
-#' @param x A glm object of family "binomial".
-#' @param a A lrm object.
+#' @param glm A glm object of family "gaussian" created with the "glm" function..
+#' @param mlr A lm object created with the "lm" function.
 #' @param ia If ia = T (default) the table will show all columns of the summary table.
 #' @export
 #' @keywords multiple linear regression, linear regression, summary table, function
-#' @import stats
 #' @return NULL
 #' @examples \dontrun{
 #' Example code will come later!

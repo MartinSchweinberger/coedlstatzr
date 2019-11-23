@@ -5,7 +5,6 @@
 #' @export
 #' @keywords regression, linear regression, sample size, function
 #' @return NULL
-#' @import stats
 #' @examples \dontrun{
 #' model.glm = glm(depvar ~ indepvar, data = data, family = gaussian)
 #' smplesz(model.glm)

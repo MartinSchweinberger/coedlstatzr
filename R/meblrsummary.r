@@ -8,7 +8,6 @@
 #' @param dpvar A vector containign the values of the dependent variable on which the models were fit.
 #' @export
 #' @keywords mixed-effects binomial logistic regression, mixed-effects logistic regression, summary table, function
-#' @import stats
 #' @return NULL
 #' @examples \dontrun{
 #' glm0 = glm(depvar ~ 1, data = data, family = "binomial")
@@ -19,7 +18,7 @@
 #' meblrmsummary(glm0, glm1, glmer0, glmer1, dpvar)
 #' }
 meblrmsummary <- function(glm0, glm1, glmer0, glmer1, dpvar) {
-  p.nice <- function(z) {
+    p.nice <- function(z) {
     as.vector(unlist(sapply(z, function(w) {
       ifelse(w < .001, return("p < .001***"),
       ifelse(w < .01, return("p <  .01 **"),

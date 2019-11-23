@@ -7,11 +7,11 @@
 mlinrsummary(mlr, glm, ia = T)
 }
 \arguments{
+\item{mlr}{A lm object created with the "lm" function.}
+
+\item{glm}{A glm object of family "gaussian" created with the "glm" function..}
+
 \item{ia}{If ia = T (default) the table will show all columns of the summary table.}
-
-\item{x}{A glm object of family "binomial".}
-
-\item{a}{A lrm object.}
 }
 \description{
 This function produces summary tables for fixed-effects multiple linear regressions by extracting the relevent information from a glm and an lm object.

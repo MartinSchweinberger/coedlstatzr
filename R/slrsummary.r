@@ -5,7 +5,6 @@
 #' @export
 #' @keywords regression, linear regression, summary table, function
 #' @return NULL
-#' @import stats
 #' @examples \dontrun{
 #' model.lm <- lm(depvar ~ indepvar, data = data)
 #' slrsummary(model.lm)
