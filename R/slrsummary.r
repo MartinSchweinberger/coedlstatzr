@@ -4,12 +4,12 @@
 #' @param x A simple linear regressions by extracting the relevent information from a regression object created with the lm function.
 #' @export
 #' @keywords regression, linear regression, summary table, function
-#' @seealso
 #' @return NULL
 #' @examples \dontrun{
-#' Example code will come later!
+#' model.lm <- lm(depvar ~ indepvar, data = data)
+#' slrsummary(model.lm)
 #' }
-slr.summary <- function(x) {
+slrsummary <- function(x) {
 p.nice <- function(z) {
   as.vector(unlist(sapply(z, function(w) {
     ifelse(w < .001, return("p < .001***"),

@@ -7,7 +7,8 @@
 #' @seealso
 #' @return NULL
 #' @examples \dontrun{
-#' Example code will come later!
+#' model.glm = glm(depvar ~ indepvar, data = data, family = gaussian)
+#' expR(model.glm)
 #' }
 expR <- function(x) {
  ifelse(((ncol(summary(x)$coefficients)-1)/(length(x$fitted)-1)) > .05,

@@ -6,8 +6,13 @@
 #' @keywords ggplot2, multiple plots, function
 #' @seealso
 #' @return NULL
+#' @import ggplot2
 #' @examples \dontrun{
-#' Example code will come later!
+#' p1 <- ggplot(data, aes(var1, var2)) +
+#' geom_point()
+#' p2 <- ggplot(data, aes(var1, var2)) +
+#' geom_line()
+#' multiplot(p1, p2, cols = 1)
 #' }
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
   require(grid)

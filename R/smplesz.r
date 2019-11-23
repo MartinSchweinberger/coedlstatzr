@@ -4,10 +4,10 @@
 #' @param x A multiple linear regression model object.
 #' @export
 #' @keywords regression, linear regression, sample size, function
-#' @seealso
 #' @return NULL
 #' @examples \dontrun{
-#' Example code will come later!
+#' model.glm = glm(depvar ~ indepvar, data = data, family = gaussian)
+#' smplesz(model.glm)
 #' }
 smplesz <- function(x) {
  ifelse((length(x$fitted)<(104 + ncol(summary(x)$coefficients)-1)) == TRUE,

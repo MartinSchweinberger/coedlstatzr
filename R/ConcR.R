@@ -6,10 +6,9 @@
 #' @param context A numeric value which determines how man characters are displayed before and after the search results.
 #' @export
 #' @keywords Concordancing, Character Srtings, Function.
-#' @seealso
 #' @return NULL
 #' @examples \dontrun{
-#' Example code will come later!
+#' ConcR(corpus, "word", 20)
 #' }
 ConcR <- function(strings, pattern, context) {
   # activate packages

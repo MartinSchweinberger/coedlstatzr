@@ -6,10 +6,14 @@
 #' @param accuracy The accuracy of the model predictions.
 #' @export
 #' @keywords binomial logistic regression, logistic regression, summary table, function
-#' @seealso
 #' @return NULL
 #' @examples \dontrun{
-#' Example code will come later!
+#' model.glm = glm(depvar ~ indepvar, data = data, family = binomial)
+#' model.lrm = lrm(depvar ~ indepvar, data = data, x = T, y = T)
+#' data$predicted <- predict(model.glm, data)
+#' caret::confusionMatrix(data$depvar, data$predict)
+#' # inspect accuracy and include its numeric value in the blrmsummary function call
+#' blrmsummary(model.glm, model.lrm, 80)
 #' }
 blrmsummary <- function(x, a, accuracy) {
   p.nice <- function(z) {

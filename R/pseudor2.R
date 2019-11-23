@@ -8,7 +8,8 @@
 #' @seealso
 #' @return NULL
 #' @examples \dontrun{
-#' Example code will come later!
+#' model.glmermodel = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "binomial")
+#' pseudor2(c("depvar ~ indepvar", "(1|ranvar)"), data)
 #' }
 pseudor2 <- function(f, d) {
   lmer.full= lmer(formula= as.formula(paste(f, collapse="+")), d, family="binomial")

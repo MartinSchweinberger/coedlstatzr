@@ -7,7 +7,12 @@
 #' @seealso
 #' @return NULL
 #' @examples \dontrun{
-#' Example code will come later!
+#' m0 <-glm(depvar ~ 1, data = data, family = "binomial")
+#' m1 = glm(depvar ~ indepvar1, data = data, family = "binomial")
+#' m2 = glm(depvar ~ indepvar + inpepvar2, data = data, family = "binomial")
+#' m1m0 = anova(m1, m0, test = "Chi)
+#' m2m1 = anova(m2, m1, test = "Chi)
+#' mdlfttngswsd(m1m0, m2m1)
 #' }
 mdlfttngswsu <- function(mdlcmp){
 mdl.cmp.df1 <- sapply(mdlcmp, function(x) {

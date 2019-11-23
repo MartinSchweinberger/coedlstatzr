@@ -4,10 +4,10 @@
 #' @param x A glm object of family "gaussian".
 #' @export
 #' @keywords linear regression, pearson's rho, effect size, function
-#' @seealso
 #' @return NULL
 #' @examples \dontrun{
-#' Example code will come later!
+#' model.glmer = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "gaussian")
+#' eflm(model.glmer)
 #' }
 eflm <- function(x) {
   df <- summary(x)[[20]][6]
