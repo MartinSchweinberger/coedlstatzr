@@ -5,6 +5,7 @@
 #' @export
 #' @keywords regression, linear regression, sample size, function
 #' @return NULL
+#' @import base
 #' @examples \dontrun{
 #' model.glm = glm(depvar ~ indepvar, data = data, family = gaussian)
 #' smplesz(model.glm)
@@ -15,5 +16,6 @@ smplesz <- function(x) {
  paste("Sample too small: please increase your sample by ",
  104 + ncol(summary(x)$coefficients)-1 - length(x$fitted),
  " data points", collapse = "")),
- return("Sample size sufficient")) }
+ return("Sample size sufficient"))
+        }
 

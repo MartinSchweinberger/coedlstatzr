@@ -4,7 +4,7 @@
 #' @param x A glm object of family "gaussian".
 #' @export
 #' @keywords beta error, type II error, multiple linear regression, linear regression
-#' @seealso
+#' @import base, stats
 #' @return NULL
 #' @examples \dontrun{
 #' model.glm = glm(depvar ~ indepvar, data = data, family = gaussian)

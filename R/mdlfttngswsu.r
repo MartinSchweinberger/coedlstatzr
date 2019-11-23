@@ -4,7 +4,7 @@
 #' @param mdlcmp is a list of model comparisons of which individual elements are created by anova calls.
 #' @export
 #' @keywords model fitting, step-wise step-down, summary table, function
-#' @seealso
+#' @import base, stats
 #' @return NULL
 #' @examples \dontrun{
 #' m0 <-glm(depvar ~ 1, data = data, family = "binomial")

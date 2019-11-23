@@ -8,7 +8,7 @@
 #' @param dpvar A vector containign the values of the dependent variable on which the models were fit.
 #' @export
 #' @keywords mixed-effects binomial logistic regression, mixed-effects logistic regression, summary table, function
-#' @seealso
+#' @import base, stats
 #' @return NULL
 #' @examples \dontrun{
 #' glm0 = glm(depvar ~ 1, data = data, family = "binomial")

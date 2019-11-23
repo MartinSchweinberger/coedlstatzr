@@ -5,7 +5,7 @@
 #' @param d The data set on which the model was fit
 #' @export
 #' @keywords pseudo R2, mixed-effects binomial logistic regression, function
-#' @seealso
+#' @import base, stats
 #' @return NULL
 #' @examples \dontrun{
 #' model.glmermodel = glmer(depvar ~ indepvar + (1|ranvar), data = data, family = "binomial")

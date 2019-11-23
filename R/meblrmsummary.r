@@ -7,6 +7,7 @@
 #' @param glmer1 The final glmer object of family "binomial".
 #' @param dpvar A vector containign the values of the dependent variable on which the models were fit.
 #' @export
+#' @import base, stats
 #' @keywords mixed-Effects binomial logistic regression, mixed-effects logistic regression, summary table, function
 #' @return NULL
 #' @examples \dontrun{
