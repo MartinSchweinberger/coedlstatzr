@@ -15,6 +15,7 @@
 #' }
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
   require(ggplot2)
+  require(grid)
   plots <- c(list(...), plotlist)
   numPlots = length(plots)
   if (is.null(layout)) {
