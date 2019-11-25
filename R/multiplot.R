@@ -5,7 +5,7 @@
 #' @export
 #' @keywords ggplot2, multiple plots, function
 #' @return NULL
-#' @import ggplot2
+#' @import ggplot2, grid
 #' @examples \dontrun{
 #' #p1 <- ggplot(data, aes(var1, var2)) +
 #' #geom_point()
