@@ -1,13 +1,48 @@
 Package: coedlstatzr
 Type: Package
-Title: Functions and Data for the CoEDL Workshop "Advanced Statistics for Linguists"
+Title: Functions and Data for the CoEDL Workshop "Advanced Statistics for
+  Linguists"
 Version: 0.1.0
 Author: Martin Schweinberger <martin.schweinberger.hh@gmail.com>
 Maintainer: Martin Schweinberger <martin.schweinberger.hh@gmail.com>
-Description: This package contains the functions and data used in the CoEDL Summer School 2019 workshop "Advanced Statistics for Linguists" at The University of Melbourne, Parkville Campus.
+Description: This package contains the functions and data used in the CoEDL
+  Summer School 2019 workshop "Advanced Statistics for Linguists" at The
+  University of Melbourne, Parkville Campus.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.0.0
-Imports: boot, Boruta, car, caret, dplyr, effects, foreign, FSA, ggplot2, grid, Hmisc, knitr, languageR, lme4, MASS, mlogit, mlogit, msm, nlme, plyr, QuantPsyc, regclass, reshape2, RLRsim, rms, sandwich, sfsmisc, sjPlot, stats, stringr, tidyr, vcd, visreg
-Depends:  boot, Boruta, car, caret, dplyr, effects, foreign, FSA, ggplot2, grid, Hmisc, knitr, languageR, lme4, MASS, mlogit, mlogit, msm, nlme, plyr, QuantPsyc, regclass, reshape2, RLRsim, rms, sandwich, sfsmisc, sjPlot, stats, stringr, tidyr, vcd, visreg
+RoxygenNote: 7.0.2
+Depends: R (>= 3.5.0)
+Imports: boot,
+  Boruta,
+  car,
+  caret,
+  dplyr,
+  effects,
+  foreign,
+  FSA,
+  graphics,
+  ggplot2,
+  grid,
+  Hmisc,
+  knitr,
+  languageR,
+  lme4,
+  MASS,
+  mlogit,
+  msm,
+  nlme,
+  plyr,
+  QuantPsyc,
+  regclass,
+  reshape2,
+  RLRsim,
+  rms,
+  sandwich,
+  sfsmisc,
+  sjPlot,
+  stats,
+  stringr,
+  tidyr,
+  vcd,
+  visreg
